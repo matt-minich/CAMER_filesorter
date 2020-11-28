@@ -5,11 +5,11 @@ That dataset contains a unique file for each three-hour block within each day. H
 
 This script renames the files in a way that makes it easy. To use it, follow these steps:
 
-1. Change the path in line 7 to the directory where you are storing your Twitter data. 
-2. Create four folders in that directory: "Original", "Resampled", "Output" and "Script".
-3. Save the script in the "Script" folder.
+1. Change the path in line 7 to the directory where you are storing your Twitter data. Save the script in that directory. 
+2. Create four folders in that directory: "Original", "Resampled", and "Output"
 4. Drop the originally-sampled tweets into the "Original" folder. Those are the first files in any folder. 
 5. If you have files labeled "after_resampling", drop them into the "Resampled" folder. 
-6. Just run the script! 
+6. Edit the path in line 16 to reflect the location of the Output folder.
+7. Just run the script! 
 
 If you have any trouble just email mminich@wisc.edu.
